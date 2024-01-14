@@ -1,0 +1,152 @@
+header {
+    background: #f7f8f8;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    height: 39px;
+    padding-top: 10px;
+
+}
+
+.first-row li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.first-row li img {
+    width: 16px;
+    margin-right: 2px;
+}
+
+.first-row span {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* .first-row span:hover{
+    color: #557477;
+    font-weight: 00;
+} */
+
+.second-row {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.second-row li {
+    list-style-type: none;
+    /* margin-right: 30px; */
+}
+
+.second-row li img {
+    width: 22px;
+}
+
+.location-bar input {
+    border: none;
+    outline: none;
+    font-size: 19px;
+    width: 120px;
+}
+
+.location-bar img {
+    width: 9px;
+}
+
+.location-bar {
+    width: 232px;
+    height: 48px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.location-bar:hover{
+    border-color: #23e5db;
+}
+
+.search-bar {
+    width: 530px;
+    height: 48px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 15px;
+    border-right:none ;
+}
+.search-bar:hover{
+    border-color: #23e5db;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    font-size: 19px;
+    width: 350px;
+}
+
+.search-icon {
+    height: 48px;
+    width: 46px;
+    background: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    margin-left: 36px;
+    width: 20px;
+}
+
+.bell {
+    margin-left: 26px;
+    width: 25px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+
+.sellBtn {
+    width: 90px;
+    height: 37px;
+    margin-left: 25px;
+    border: 5px solid #ffce32;
+    /* border-image: linear-gradient(to right, #ffce32, #23e5db, #3a77ff) 1; */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell {
+    font-weight: 600;
+    font-size: 17px;
+}
